@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gymrankai"
+version = "1.0.0"
+dependencies = [
+    "streamlit",
+    "pandas",
+    "plotly",
+    "numpy",
+    "matplotlib",
+]
+requires-python = ">=3.8,<3.13"
